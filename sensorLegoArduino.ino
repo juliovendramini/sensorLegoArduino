@@ -44,6 +44,7 @@ o que observei é que o brick trabalha sempre com os valores com sinal
 //quanto mais dado por vez for enviado para o brick, mais processamento consumirá do brick
 
 //define a quantidade de valores diferentes que serão enviado por modo
+//a quantidade de sensores deve ser potencia de 2: (2,4,8,16 ou 32)
 #define QUANTIDADE_SENSORES_MODO0 4
 //vetor que será enviado contendo 1 byte por sensor
 uint8_t valoresModo0[QUANTIDADE_SENSORES_MODO0];
